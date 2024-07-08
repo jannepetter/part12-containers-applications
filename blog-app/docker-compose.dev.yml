@@ -1,0 +1,42 @@
+services:
+  mongo:
+    image: mongo
+    ports:
+      - 3456:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: the_database
+    volumes: 
+      - ./blogbackend/mongo/mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js
+      - ./blogbackend/mongo/mongo_data:/data/db
+
+  blogserver:
+    build:
+      context: ./blogbackend/
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./blogbackend/:/usr/src/app
+      - /usr/src/app/node_modules # named volume for node_modules so dont have to npm ci locally
+    depends_on:
+      - mongo
+
+  blogfront:
+    build:
+      context: ./blogfrontend/
+      dockerfile: dev.Dockerfile
+    volumes:
+      - ./blogfrontend/:/usr/src/app
+      - /usr/src/app/node_modules # named volume for node_modules so dont have to npm ci locally
+    depends_on:
+      - blogserver
+
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - ./nginx.dev.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    container_name: reverse-proxy
+    depends_on:
+      - blogfront

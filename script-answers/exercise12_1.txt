@@ -1,0 +1,11 @@
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx/1.22.1</center>
+</body>
+</html>
+
+
+-The above captured with command:  
+curl http://helsinki.fi > ./script-answers/exercise12_1.txt  

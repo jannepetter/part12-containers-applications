@@ -1,0 +1,529 @@
+Script started on 2024-07-01 20:05:40+03:00 [TERM="xterm-256color" TTY="/dev/pts/6" COLUMNS="141" LINES="14"]
+[?2004h]0;janne@DESKTOP-KK01TMM: ~/projects/part12-containers-applications[01;32mjanne@DESKTOP-KK01TMM[00m:[01;34m~/projects/part12-containers-applications[00m$ [7mdocker run -it ubuntu bash[27mdocker run -it ubuntu bash
+[?2004l
+Unable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K
+9c704ecd0c69: Pulling fs layer 
+[1B[1A[2K
+9c704ecd0c69: Downloading [>                                                  ]  298.2kB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [=>                                                 ]  609.5kB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [==>                                                ]  1.224MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [===>                                               ]  1.834MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [====>                                              ]  2.436MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [=====>                                             ]  3.059MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [======>                                            ]  3.682MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [=======>                                           ]  4.304MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [========>                                          ]  4.927MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [=========>                                         ]  5.549MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [==========>                                        ]  6.172MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [===========>                                       ]  6.794MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [============>                                      ]  7.417MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [=============>                                     ]   8.04MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [==============>                                    ]  8.662MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [===============>                                   ]  9.285MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [================>                                  ]  9.907MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [=================>                                 ]  10.53MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [==================>                                ]  11.15MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [===================>                               ]  11.78MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [====================>                              ]   12.4MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [=====================>                             ]  13.02MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [======================>                            ]  13.64MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [========================>                          ]  14.27MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [=========================>                         ]  14.89MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [==========================>                        ]  15.51MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [===========================>                       ]  16.13MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [============================>                      ]  16.76MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [=============================>                     ]  17.38MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [==============================>                    ]     18MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [===============================>                   ]  18.62MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [================================>                  ]  19.25MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [=================================>                 ]  19.87MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [==================================>                ]  20.49MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [===================================>               ]  21.11MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [====================================>              ]  21.74MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [=====================================>             ]  22.36MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [======================================>            ]  22.98MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [=======================================>           ]   23.6MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [========================================>          ]  24.23MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [=========================================>         ]  24.85MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [==========================================>        ]  25.47MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [===========================================>       ]  26.09MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [============================================>      ]  26.72MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [==============================================>    ]  27.34MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [===============================================>   ]  27.96MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [================================================>  ]  28.58MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Downloading [=================================================> ]  29.21MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Verifying Checksum 
+[1B[1A[2K
+9c704ecd0c69: Download complete 
+[1B[1A[2K
+9c704ecd0c69: Extracting [>                                                  ]  327.7kB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [====>                                              ]  2.949MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [=========>                                         ]  5.571MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [============>                                      ]  7.537MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [==============>                                    ]   8.52MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [================>                                  ]   9.83MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [===================>                               ]   11.8MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [=========================>                         ]  15.07MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [===============================>                   ]  18.68MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [====================================>              ]  21.63MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [=========================================>         ]  24.58MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [===========================================>       ]  25.56MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [=============================================>     ]   27.2MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [===============================================>   ]  28.18MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [=================================================> ]  29.16MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [=================================================> ]  29.49MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Extracting [==================================================>]  29.71MB/29.71MB
+[1B[1A[2K
+9c704ecd0c69: Pull complete 
+[1BDigest: sha256:2e863c44b718727c860746568e1d54afd13b2fa71b160f5cd9058fc436217b30
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@778a192a7b1b: /root@778a192a7b1b:/# mkdir /usr/src/app
+[?2004l
+[?2004h]0;root@778a192a7b1b: /root@778a192a7b1b:/# touch /usr/src/app/index.js
+[?2004l
+[?2004h]0;root@778a192a7b1b: /root@778a192a7b1b:/# [Kexit
+[?2004l
+exit
+[?2004h]0;janne@DESKTOP-KK01TMM: ~/projects/part12-containers-applications[01;32mjanne@DESKTOP-KK01TMM[00m:[01;34m~/projects/part12-containers-applications[00m$ [7mdocker container ls -a[27mdocker container ls -a
+[?2004l
+CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                      PORTS     NAMES
+778a192a7b1b   ubuntu        "bash"     7 minutes ago    Exited (0) 6 minutes ago              charming_carson
+ab3a664a4f65   hello-world   "/hello"   13 minutes ago   Exited (0) 13 minutes ago             loving_haslett
+[?2004h]0;janne@DESKTOP-KK01TMM: ~/projects/part12-containers-applications[01;32mjanne@DESKTOP-KK01TMM[00m:[01;34m~/projects/part12-containers-applications[00m$ docker ps
+[?2004l
+CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+[?2004h]0;janne@DESKTOP-KK01TMM: ~/projects/part12-containers-applications[01;32mjanne@DESKTOP-KK01TMM[00m:[01;34m~/projects/part12-containers-applications[00m$ docker ps -a
+[?2004l
+CONTAINER ID   IMAGE         COMMAND    CREATED          STATUS                      PORTS     NAMES
+778a192a7b1b   ubuntu        "bash"     8 minutes ago    Exited (0) 7 minutes ago              charming_carson
+ab3a664a4f65   hello-world   "/hello"   14 minutes ago   Exited (0) 14 minutes ago             loving_haslett
+[?2004h]0;janne@DESKTOP-KK01TMM: ~/projects/part12-containers-applications[01;32mjanne@DESKTOP-KK01TMM[00m:[01;34m~/projects/part12-containers-applications[00m$ docker start -i charming_carson [K
+[?2004l
+[?2004h]0;root@778a192a7b1b: /root@778a192a7b1b:/# apth -get update
+[?2004l
+
+0% [Working]
+            
+Get:1 http://archive.ubuntu.com/ubuntu noble InRelease [256 kB]
+
+0% [1 InRelease 6980 B/256 kB 3%] [Waiting for headers]
+                                                       
+Get:2 http://security.ubuntu.com/ubuntu noble-security InRelease [126 kB]
+
+0% [1 InRelease 20.1 kB/256 kB 8%] [2 InRelease 4060 B/126 kB 3%]
+                                                                 
+0% [1 InRelease 227 kB/256 kB 89%]
+                                  
+0% [Working]
+0% [Waiting for headers]
+                        
+Get:3 http://archive.ubuntu.com/ubuntu noble-updates InRelease [126 kB]
+
+0% [3 InRelease 11.4 kB/126 kB 9%]
+                                  
+0% [Waiting for headers]
+                        
+Get:4 http://security.ubuntu.com/ubuntu noble-security/main amd64 Packages [231 kB]
+
+0% [Waiting for headers] [4 Packages 8551 B/231 kB 4%]
+0% [Waiting for headers] [4 Packages 105 kB/231 kB 45%]
+                                                       
+Get:5 http://archive.ubuntu.com/ubuntu noble-backports InRelease [126 kB]
+
+0% [5 InRelease 5532 B/126 kB 4%] [4 Packages 122 kB/231 kB 53%]
+0% [5 InRelease 75.6 kB/126 kB 60%] [4 Packages 193 kB/231 kB 83%]
+                                                                  
+0% [5 InRelease 109 kB/126 kB 87%]
+0% [4 Packages store 0 B] [5 InRelease 109 kB/126 kB 87%] [Waiting for headers]
+                                                                               
+0% [5 InRelease 109 kB/126 kB 87%] [Waiting for headers]
+                                                        
+Get:6 http://security.ubuntu.com/ubuntu noble-security/universe amd64 Packages [74.6 kB]
+
+0% [5 InRelease 121 kB/126 kB 96%] [6 Packages 7092 B/74.6 kB 10%]
+                                                                  
+0% [6 Packages 58.2 kB/74.6 kB 78%]
+0% [Waiting for headers] [Waiting for headers]
+                                              
+Get:7 http://security.ubuntu.com/ubuntu noble-security/restricted amd64 Packages [168 kB]
+
+0% [Waiting for headers] [7 Packages 3791 B/168 kB 2%]
+0% [6 Packages store 0 B] [Waiting for headers] [7 Packages 3791 B/168 kB 2%]
+                                                                             
+0% [Waiting for headers] [7 Packages 18.4 kB/168 kB 11%]
+                                                        
+Get:8 http://archive.ubuntu.com/ubuntu noble/restricted amd64 Packages [117 kB]
+
+0% [8 Packages 2681 B/117 kB 2%] [7 Packages 116 kB/168 kB 69%]
+18% [8 Packages 29.0 kB/117 kB 25%] [7 Packages 129 kB/168 kB 77%]
+                                                                  
+18% [Waiting for headers] [7 Packages 129 kB/168 kB 77%]
+                                                        
+Get:9 http://archive.ubuntu.com/ubuntu noble/multiverse amd64 Packages [331 kB]
+
+18% [9 Packages 1837 B/331 kB 1%] [7 Packages 129 kB/168 kB 77%]
+18% [8 Packages store 0 B] [9 Packages 1837 B/331 kB 1%] [7 Packages 129 kB/168 kB 77%]
+                                                                                       
+19% [9 Packages 21.0 kB/331 kB 6%] [7 Packages 151 kB/168 kB 90%]
+                                                                 
+19% [9 Packages 88.2 kB/331 kB 27%] [Waiting for headers]
+                                                         
+Get:10 http://security.ubuntu.com/ubuntu noble-security/multiverse amd64 Packages [12.7 kB]
+
+19% [9 Packages 91.1 kB/331 kB 28%] [10 Packages 212 B/12.7 kB 2%]
+19% [7 Packages store 0 B] [9 Packages 91.1 kB/331 kB 28%] [10 Packages 212 B/12.7 kB 2%]
+                                                                                         
+19% [7 Packages store 0 B] [9 Packages 106 kB/331 kB 32%]
+                                                         
+20% [9 Packages 126 kB/331 kB 38%]
+20% [10 Packages store 0 B] [9 Packages 126 kB/331 kB 38%]
+                                                          
+20% [9 Packages 132 kB/331 kB 40%]
+                                  
+21% [Waiting for headers]
+                         
+Get:11 http://archive.ubuntu.com/ubuntu noble/universe amd64 Packages [19.3 MB]
+
+21% [11 Packages 2920 B/19.3 MB 0%]
+21% [9 Packages store 0 B] [11 Packages 2920 B/19.3 MB 0%]
+                                                          
+22% [11 Packages 73.0 kB/19.3 MB 0%]
+27% [11 Packages 1513 kB/19.3 MB 8%]
+31% [11 Packages 2882 kB/19.3 MB 15%]
+37% [11 Packages 4380 kB/19.3 MB 23%]
+42% [11 Packages 5869 kB/19.3 MB 30%]
+45% [11 Packages 6909 kB/19.3 MB 36%]
+50% [11 Packages 8194 kB/19.3 MB 42%]
+54% [11 Packages 9525 kB/19.3 MB 49%]
+59% [11 Packages 11.0 MB/19.3 MB 57%]
+63% [11 Packages 12.0 MB/19.3 MB 62%]
+67% [11 Packages 13.3 MB/19.3 MB 69%]
+73% [11 Packages 14.9 MB/19.3 MB 77%]                                                                                           2569 kB/s 2s
+78% [11 Packages 16.3 MB/19.3 MB 85%]                                                                                           2569 kB/s 2s
+82% [11 Packages 17.8 MB/19.3 MB 92%]                                                                                           2569 kB/s 1s
+87% [11 Packages 19.2 MB/19.3 MB 99%]                                                                                           2569 kB/s 0s
+88% [Waiting for headers]                                                                                                       2569 kB/s 0s
+                                                                                                                                            
+Get:12 http://archive.ubuntu.com/ubuntu noble/main amd64 Packages [1808 kB]
+
+88% [12 Packages 8675 B/1808 kB 0%]                                                                                             2569 kB/s 0s
+88% [11 Packages store 0 B] [12 Packages 8675 B/1808 kB 0%]                                                                     2569 kB/s 0s
+93% [11 Packages store 0 B] [12 Packages 1416 kB/1808 kB 78%]                                                                   2569 kB/s 0s
+94% [11 Packages store 0 B] [Waiting for headers]                                                                               2569 kB/s 0s
+                                                                                                                                            
+Get:13 http://archive.ubuntu.com/ubuntu noble-updates/universe amd64 Packages [137 kB]
+
+94% [11 Packages store 0 B] [13 Packages 1588 B/137 kB 1%]                                                                      2569 kB/s 0s
+95% [11 Packages store 0 B] [Waiting for headers]                                                                               2569 kB/s 0s
+                                                                                                                                            
+Get:14 http://archive.ubuntu.com/ubuntu noble-updates/restricted amd64 Packages [173 kB]
+
+95% [11 Packages store 0 B] [14 Packages 5285 B/173 kB 3%]                                                                      2569 kB/s 0s
+95% [11 Packages store 0 B] [Waiting for headers]                                                                               2569 kB/s 0s
+                                                                                                                                            
+Get:15 http://archive.ubuntu.com/ubuntu noble-updates/multiverse amd64 Packages [16.9 kB]
+
+95% [11 Packages store 0 B] [15 Packages 2536 B/16.9 kB 15%]                                                                    2569 kB/s 0s
+95% [11 Packages store 0 B] [Waiting for headers]                                                                               2569 kB/s 0s
+                                                                                                                                            
+Get:16 http://archive.ubuntu.com/ubuntu noble-updates/main amd64 Packages [269 kB]
+
+95% [11 Packages store 0 B] [16 Packages 1021 B/269 kB 0%]                                                                      2569 kB/s 0s
+96% [11 Packages store 0 B] [Waiting for headers]                                                                               2569 kB/s 0s
+                                                                                                                                            
+Get:17 http://archive.ubuntu.com/ubuntu noble-backports/universe amd64 Packages [9705 B]
+
+96% [11 Packages store 0 B] [17 Packages 1727 B/9705 B 18%]                                                                     2569 kB/s 0s
+96% [11 Packages store 0 B]                                                                                                     2569 kB/s 0s
+97% [Working]                                                                                                                   2569 kB/s 0s
+97% [12 Packages store 0 B]                                                                                                     2569 kB/s 0s
+97% [Working]                                                                                                                   2569 kB/s 0s
+97% [13 Packages store 0 B]                                                                                                     2569 kB/s 0s
+98% [Working]                                                                                                                   2569 kB/s 0s
+98% [14 Packages store 0 B]                                                                                                     2569 kB/s 0s
+98% [Working]                                                                                                                   2569 kB/s 0s
+98% [15 Packages store 0 B]                                                                                                     2569 kB/s 0s
+99% [Working]                                                                                                                   2569 kB/s 0s
+99% [16 Packages store 0 B]                                                                                                     2569 kB/s 0s
+99% [Working]                                                                                                                   2569 kB/s 0s
+99% [17 Packages store 0 B]                                                                                                     2569 kB/s 0s
+100% [Working]                                                                                                                  2569 kB/s 0s
+                                                                                                                                            
+Fetched 23.3 MB in 9s (2522 kB/s)
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+[?2004h]0;root@778a192a7b1b: /root@778a192a7b1b:/# apt-get -y install nano
+[?2004l
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 0%
+
+Reading package lists... 8%
+
+Reading package lists... 8%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 92%
+
+Reading package lists... 94%
+
+Reading package lists... 94%
+
+Reading package lists... 95%
+
+Reading package lists... 95%
+
+Reading package lists... 96%
+
+Reading package lists... 96%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 97%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 98%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... 99%
+
+Reading package lists... Done
+
+
+Building dependency tree... 0%
+
+Building dependency tree... 0%
+
+Building dependency tree... 50%
+
+Building dependency tree... 50%
+
+Building dependency tree... 89%
+
+Building dependency tree... Done
+
+
+Reading state information... 0% 
+
+Reading state information... 98%
+
+Reading state information... Done
+
+Suggested packages:
+  hunspell
+The following NEW packages will be installed:
+  nano
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 281 kB of archives.
+After this operation, 856 kB of additional disk space will be used.
+
+0% [Working]
+            
+Get:1 http://archive.ubuntu.com/ubuntu noble/main amd64 nano amd64 7.2-2build1 [281 kB]
+
+2% [1 nano 5548 B/281 kB 2%]
+74% [1 nano 260 kB/281 kB 92%]
+                              
+100% [Working]
+              
+Fetched 281 kB in 1s (362 kB/s)
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously unselected package nano.
+(Reading database ... 
+(Reading database ... 5%
+(Reading database ... 10%
+(Reading database ... 15%
+(Reading database ... 20%
+(Reading database ... 25%
+(Reading database ... 30%
+(Reading database ... 35%
+(Reading database ... 40%
+(Reading database ... 45%
+(Reading database ... 50%
+(Reading database ... 55%
+(Reading database ... 60%
+(Reading database ... 65%
+(Reading database ... 70%
+(Reading database ... 75%
+(Reading database ... 80%
+(Reading database ... 85%
+(Reading database ... 90%
+(Reading database ... 95%
+(Reading database ... 100%
+(Reading database ... 4376 files and directories currently installed.)
+Preparing to unpack .../nano_7.2-2build1_amd64.deb ...
+Unpacking nano (7.2-2build1) ...
+Setting up nano (7.2-2build1) ...
+update-alternatives: using /bin/nano to provide /usr/bin/editor (editor) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/editor.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group editor) doesn't exist
+update-alternatives: using /bin/nano to provide /usr/bin/pico (pico) in auto mode
+update-alternatives: warning: skip creation of /usr/share/man/man1/pico.1.gz because associated file /usr/share/man/man1/nano.1.gz (of link group pico) doesn't exist
+[?2004h]0;root@778a192a7b1b: /root@778a192a7b1b:/# which nano
+[?2004l
+/usr/bin/nano
+[?2004h]0;root@778a192a7b1b: /root@778a192a7b1b:/# nano -v
+[?2004l
+[?2004h[?1049h[22;0;0t[1;14r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J(B[0;7m  GNU nano 7.2 [53bNew Buffer [61b [1;140H(B[m[12;46H(B[0;7m[ Welcome to nano.  For basic help, type Ctrl+G. ](B[m
+[13d(B[0;7m^G(B[m Help[13;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[13;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[106G(B[0;7mM-A(B[m Set Mark   (B[0;7mM-](B[m To Bracket
+[14d(B[0;7m^X(B[m Exit[14;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[106G(B[0;7mM-6(B[m Copy[121G(B[0;7m^Q(B[m Where Was
+[2d[?12l[?25h[?25l[12d[J[14d[?12l[?25h[14;1H[?1049l[23;0;0t
+[?1l>[?2004l[?2004h]0;root@778a192a7b1b: /root@778a192a7b1b:/# exit
+[?2004l
+exit
+[?2004h]0;janne@DESKTOP-KK01TMM: ~/projects/part12-containers-applications[01;32mjanne@DESKTOP-KK01TMM[00m:[01;34m~/projects/part12-containers-applications[00m$ exit
+[?2004l
+exit
+
+Script done on 2024-07-01 20:30:14+03:00 [COMMAND_EXIT_CODE="0"]
